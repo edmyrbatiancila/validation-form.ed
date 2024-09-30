@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Validation Formn | JQuery UI</title>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.14.0/themes/smoothness/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.14.0/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        <main>
+            <header>
+                <span>Scheduling Form for Vaccination</span>
+            </header>
+            <section class="form-vaccine">
+                <form id="vaccine" action="process.php" method="post">
+                    <div class="fname-input">
+                        <label for="fname">First Name:</label>
+                        <input id="fname" name="firstName" type="text" />
+                    </div>
+                    <div class="lname-input">
+                        <label for="lname">Last Name:</label>
+                        <input id="lname" name="lastName" type="text" />
+                    </div>
+                    <div class="date-input">
+                        <label for="date">Preferred Date:</label>
+                        <input id="date" value="mm/dd/yyyy" type="text" />
+                    </div>
+                    <input id="submit-btn" type="submit" value="Reserved" />
+                </form>
+            </section>
+        </main>
+    </body>
+</html>

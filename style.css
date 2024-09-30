@@ -1,0 +1,65 @@
+* {
+    /* outline: 1px dotted red; */
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+header span {
+    font-size: xx-large;
+}
+
+.form-vaccine {
+    margin-bottom: 20px;
+}
+
+.form-vaccine form {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+
+form div {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+form div input {
+    height: 20px;
+    border: none;
+}
+
+form label {
+    font-weight: bold;
+}
+
+#date {
+    text-align: center;
+}
+
+#submit-btn {
+    height: 30px;
+    font-size: large;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+
+#submit-btn:hover {
+    background-color: rgb(16, 126, 216);
+}
