@@ -16,9 +16,9 @@ $(document).ready(function() {
     $('#vaccine').submit(function(event) {
         event.stopPropagation();
 
-        var firstName   = $('#fname').first().val();
-        var lastName    = $('#lname').first().val();
-        var dateData    = $('#date').first().val();
+        const firstName   = $('#fname').first().val();
+        const lastName    = $('#lname').first().val();
+        const dateData    = $('#date').first().val();
         
         if(!firstName) {
             alert("First Name Field cannot be blank");
